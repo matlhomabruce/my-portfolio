@@ -1,17 +1,17 @@
-/* Applies to the whole page */
+
 body {
-    font-family: Arial, sans-serif; /* Sets text font */
-    margin: 0; /* Removes default spacing */
-    background: #2f455e; /* Light gray background */
-     padding-top: 70px; /* Prevents content from hiding under nav */
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    background: #2f455e; 
+     padding-top: 70px; 
 }
 
-/* NAVBAR STYLING */
+
 nav {
-    position: sticky;   /* Makes navbar stay visible */
-    bottom: 0;             /* Stick to the top of the page */
-    background-color: rgb(168, 178, 199); /* So content doesn't show through */
-    z-index: 1000;      /* Keeps it above everything */
+    position: sticky;   
+    bottom: 0;             
+    background-color: rgb(168, 178, 199); 
+    z-index: 1000;      
 
      position: fixed\\;
     top: 0;
@@ -23,63 +23,63 @@ nav {
 }
 
 nav ul {
-    list-style: none; /* Removes bullet points */
-    display: flex; /* Makes list horizontal */
-    gap: 15px; /* Space between links */
-    justify-content: flex-end; /* Pushes items to the right */
+    list-style: none; 
+    display: flex; /
+    gap: 15px; 
+    justify-content: flex-end; 
 }
 
 nav a {
-    color: white; /* Link color */
-    text-decoration: none; /* Removes underline */
+    color: white; 
+    text-decoration: none; 
 }
 
-/* HERO SECTION */
+
 .hero {
-    text-align: center; /* Centers text */
-    padding: 60px 20px; /* Space inside section */
-    background: #33434e; /* Blue background */
-    color: white; /* Text color */
+    text-align: center; 
+    padding: 60px 20px; 
+    background: #33434e; 
+    color: white; 
 }
 
-/* ALL SECTIONS */
+
 section {
-    padding: 40px; /* Space inside each section */
-    text-align: center; /* Center content */
+    padding: 40px;
+    text-align: center; 
     color: aliceblue;
     
 }
 
-/* PROJECT CARDS */
+
 .project {
-    background: rgb(30, 62, 99); /* Card background */
-    margin: 10px auto; /* Space around + center horizontally */
-    padding: 20px; /* Inner spacing */
-    width: 60%; /* Controls card width */
-    border-radius: 10px; /* Rounded corners */
+    background: rgb(30, 62, 99); 
+    margin: 10px auto; 
+    padding: 20px; 
+    width: 60%; 
+    border-radius: 10px; 
     
 }
 
-/* BUTTON STYLE */
+
 button {
-    padding: 10px 20px; /* Size of button */
-    background: black; /* Button color */
-    color: white; /* Text color */
-    border: none; /* Removes border */
-    cursor: pointer; /* Changes mouse to pointer */
+    padding: 10px 20px; 
+    background: black; 
+    color: white;
+    border: none;
+    cursor: pointer; 
 }
 
-/* BUTTON HOVER EFFECT */
+
 button:hover {
-    background: gray; /* Changes color when hovered */
+    background: gray; 
 }
 
-/* FOOTER */
+
 footer {
-    text-align: center; /* Center text */
-    padding: 20px; /* Space inside */
-    background: #222; /* Dark background */
-    color: white; /* Text color */
+    text-align: center; 
+    padding: 20px; 
+    background: #222;
+    color: white; 
 }
 
 
@@ -88,11 +88,11 @@ footer {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between icon and text */
+    gap: 10px; 
     color: #edebf0;
 }
 
 #contact i {
-    color: #e6e8eb; /* Icon color */
+    color: #e6e8eb; 
     font-size: 18px;
 }
