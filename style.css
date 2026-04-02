@@ -1,0 +1,98 @@
+/* Applies to the whole page */
+body {
+    font-family: Arial, sans-serif; /* Sets text font */
+    margin: 0; /* Removes default spacing */
+    background: #2f455e; /* Light gray background */
+     padding-top: 70px; /* Prevents content from hiding under nav */
+}
+
+/* NAVBAR STYLING */
+nav {
+    position: sticky;   /* Makes navbar stay visible */
+    bottom: 0;             /* Stick to the top of the page */
+    background-color: rgb(168, 178, 199); /* So content doesn't show through */
+    z-index: 1000;      /* Keeps it above everything */
+
+     position: fixed\\;
+    top: 0;
+    width: 100%;
+    background-color: rgb(39, 55, 92);
+    z-index: 1000;
+
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Makes list horizontal */
+    gap: 15px; /* Space between links */
+    justify-content: flex-end; /* Pushes items to the right */
+}
+
+nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Removes underline */
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center; /* Centers text */
+    padding: 60px 20px; /* Space inside section */
+    background: #33434e; /* Blue background */
+    color: white; /* Text color */
+}
+
+/* ALL SECTIONS */
+section {
+    padding: 40px; /* Space inside each section */
+    text-align: center; /* Center content */
+    color: aliceblue;
+    
+}
+
+/* PROJECT CARDS */
+.project {
+    background: rgb(30, 62, 99); /* Card background */
+    margin: 10px auto; /* Space around + center horizontally */
+    padding: 20px; /* Inner spacing */
+    width: 60%; /* Controls card width */
+    border-radius: 10px; /* Rounded corners */
+    
+}
+
+/* BUTTON STYLE */
+button {
+    padding: 10px 20px; /* Size of button */
+    background: black; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Removes border */
+    cursor: pointer; /* Changes mouse to pointer */
+}
+
+/* BUTTON HOVER EFFECT */
+button:hover {
+    background: gray; /* Changes color when hovered */
+}
+
+/* FOOTER */
+footer {
+    text-align: center; /* Center text */
+    padding: 20px; /* Space inside */
+    background: #222; /* Dark background */
+    color: white; /* Text color */
+}
+
+
+#contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    color: #edebf0;
+}
+
+#contact i {
+    color: #e6e8eb; /* Icon color */
+    font-size: 18px;
+}
