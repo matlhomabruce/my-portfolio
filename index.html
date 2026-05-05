@@ -1,46 +1,50 @@
-<!DOCTYPE html> 
-
-<html lang="en"> 
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"> 
-    <title>My Portfolio</title> 
-    
-   
+    <meta charset="UTF-8">
+    <title>Thato Matlhoma | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
-<body> 
+<body>
 
-    
-    <nav> 
-        <h2><b>MyPortfolio</b></h2>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">Bruce.</div>
 
-        <ul> 
-            
-            <li><a href="#home"><b>Home</b></a></li>
-            <li><a href="#about"><b>About</b></a></li>
-            <li><a href="#projects"><b>Projects</b></a></li>
-            <li><a href="#contact"><b>Contact</b></a></li>
-        </ul>
-    </nav>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    
-    <section id="home" class="hero"> 
-        <h1>Bruce Lesiba Matlhoma</h1> 
-        <p>1. Web Designer </p> 
-        <p>2. IT Technician </p> 
-        
-        
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Bruce Matlhoma</span></h1>
+        <h2>IT Technician & Web Developer</h2>
+        <p>I build modern, responsive websites and provide reliable IT support solutions.</p>
 
-        
-        <button onclick="showMessage()">Hire Me</button>
-    </section>
+        <div class="hero-buttons">
+            <button onclick="showMessage()">Hire Me</button>
+            <a href="#projects"><button class="secondary">View Projects</button></a>
+        </div>
+    </div>
+</section>
 
-   <section id="about">
-
+<!-- ABOUT -->
+<section id="about" class="about">
     <h2>About Me</h2>
-    <p>
+
+    <div class="about-container">
+        <div class="about-text">
+            <p>
         A highly motivated and detail-oriented IT Technician with proven experience in IT Help Desk support,
         hardware and software troubleshooting, and network maintenance. Adept at resolving technical issues
         both remotely and onsite, managing user accounts, and delivering first-line support for desktops,
@@ -57,20 +61,65 @@
         Recognized for strong problem-solving abilities, effective communication, and excellent customer service.
     </p>
 
-    <h2>Education Background</h2>
-    <p>
+        <div class="about-info">
+            <p><strong>🎓 Education:</strong> Diploma in Software Development (2022)</p><br>
+             <p>
         I am a Software Development graduate from Tshwane University of Technology.
         I completed my diploma in 2022, where I gained both theoretical knowledge and
         practical experience in software development.
     </p>
 
+
+            
+        </div>
+
+        <div class="about-info">
+            
+            <p><strong>💼 Experience:</strong> IT Technician , Network Administrator & Web Developer</p>
+            <p><strong>📍 Location:</strong> Limpopo, South Africa</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, Responsive Design</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Programming</h3>
+            <p>C++, OOP, Data Structures</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>IT Support</h3>
+            <p>Hardware, Software, Troubleshooting</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Networking</h3>
+            <p>Routers, Switches, Cabling, Security</p>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience">
     <h2>Work Experience</h2>
 
-    <h3>IT Technician & Network Administrator</h3>
-    <p><strong>Letaba TVET College (Central)</strong> — Tzaneen, South Africa</p>
-    <p><em>June 2024 – Present</em></p>
+    <div class="timeline">
 
-    <p>
+        <div class="timeline-item">
+            <h3>IT Technician & Network Administrator</h3>
+            <span>Letaba TVET College | 2024 – Present</span>
+            <p>Supporting 100+ users, managing systems, networks, and troubleshooting IT issues.</p>
+             <p>
         Provided first- and second-line IT support to over 100 users, resolving hardware,
         software, and network-related issues. Installed, configured, and maintained IT equipment
         while ensuring optimal system performance.
@@ -109,105 +158,65 @@
         Contributed to system development tasks including cost-benefit analysis, maintaining systems,
         and managing user access in the PERMIS system.
     </p>
+        </div>
 
-    <h3>Lecturer Assistant & ICT Training</h3>
-    <p><strong>Tshwane University of Technology & Netcampus</strong> — Polokwane, South Africa</p>
-    <p><em>August 2023 – June 2024</em></p>
+        <div class="timeline-item">
+            <h3>IT Technician Intern</h3>
+            <span>CoGHSTA | 2022 – 2023</span>
+            <p>Maintained infrastructure, resolved technical issues, and supported users.</p>
+        </div>
 
-    <p>
-        Monitored attendance, captured student marks, and supported administrative tasks.
-        Assisted in maintaining systems and participated in IT training programs leading to
-        international certifications.
-    </p>
+        <div class="timeline-item">
+            <h3>Lecturer Assistant</h3>
+            <span>TUT & Netcampus | 2023 – 2024</span>
+            <p>Assisted students, managed records, and supported ICT training programs.</p>
+        </div>
 
-    <h2>Technical Skills</h2>
-
-    <h3>Frontend Development</h3>
-    <p>
-        Knowledge of frontend development using HTML, CSS, and JavaScript to build responsive and
-        user-friendly web interfaces, including layout design and interactivity.
-    </p>
-
-    <h3>C++</h3>
-    <p>
-        Proficiency in C++ with understanding of object-oriented programming, data structures,
-        and algorithm fundamentals.
-    </p>
-
-    <h3>HTML</h3>
-    <p>
-        Strong foundation in semantic HTML5 for building structured and accessible web pages.
-    </p>
-
-    <h3>CSS</h3>
-    <p>
-        Skilled in CSS, including Flexbox and Grid, for responsive design and modern UI styling.
-    </p>
-
-    <h3>JavaScript</h3>
-    <p>
-        Working knowledge of JavaScript including DOM manipulation, event handling,
-        and dynamic web functionality.
-    </p>
-
-    <h2>Professional Knowledge</h2>
-
-    <h3>Software / Systems Development</h3>
-    <p>
-        Understanding of the Software Development Life Cycle (SDLC), including system analysis,
-        design, testing, and maintenance. Able to apply best practices in coding and problem-solving.
-    </p>
-
-    <h2>Soft Skills</h2>
-
-    <h3>Problem-Solving</h3>
-    <p>Strong analytical skills with the ability to identify and resolve technical issues efficiently.</p>
-
-    <h3>Communication</h3>
-    <p>Effective verbal and written communication with both technical and non-technical users.</p>
-
-    <h3>Teamwork</h3>
-    <p>Collaborative team player focused on achieving shared goals and delivering quality results.</p>
-
-    <h3>Adaptability</h3>
-    <p>Quick to learn new technologies and adapt to changing environments.</p>
-
-    <h3>Time Management</h3>
-    <p>Efficient in prioritizing tasks and meeting deadlines in fast-paced environments.</p>
-
-</section>
-
-    
-    <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="project">
-        <h3>Personal Portfolio Website</h3>
-        <p>
-            A responsive personal portfolio website built to showcase my skills, projects, and contact information.
-            The site includes interactive navigation, a project gallery, and a contact form.
-        </p>
-        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-        <p><strong>Key Learnings:</strong> Learned to implement responsive design, DOM manipulation, interactive UI elements, and proper project structuring for web development.</p>
-        
     </div>
 </section>
 
-   <section id="contact">
-    <h2>Contact Information</h2>
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+    <h2>Projects</h2>
 
-    <p><i class="fas fa-envelope"></i> brucematlhoma@gmail.com</p>
-    <p><i class="fas fa-phone"></i> 0691015355</p>
-    <p><i class="fas fa-map-marker-alt"></i> 206 Mathlaba, Bakenberg, Limpopo, South Africa</p>
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio with modern UI and smooth navigation.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/matlhomabruce/my-portfolio" target="_blank" class="btn">
+    View Project
+</a>
+            <h3>Jurasic world Website</h3>
+        </div>
+        <div class="project-card">
+         
+          <h3>Jurasic world Website</h3>
+           <p>Responsive Jurasic word Website with modern UI and smooth navigation.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+
+        </div>
+    </div>
 </section>
 
-   
-    <footer>
-        <p>© 2023 Matlhoma Bruce Lesiba.</p> 
-    </footer>
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
 
-    
-    <script src="script.js"></script>
+    <div class="contact-container">
+        <p>📧 brucematlhoma@gmail.com</p>
+        <p>📞 069 101 5355</p>
+        <p>📍 Limpopo, South Africa</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Bruce Matlhoma | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
