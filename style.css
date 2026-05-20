@@ -1,5 +1,5 @@
 
-/* GLOBAL */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -12,7 +12,6 @@ section {
     text-align: center;
 }
 
-/* NAVBAR */
 .navbar {
     position: fixed;
     top: 0;
@@ -35,7 +34,7 @@ section {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 10px;
     margin: 0;
 }
 
@@ -50,14 +49,30 @@ section {
     color: #00d4ff;
 }
 
-/* HERO */
-.hero {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #33434e, #1e3e63);
-    text-align: center;
+
+.hero-image img {
+    size: 100%;
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #00ffcc;
+    
+    
+}
+
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        margin-top: 20px;
+        width: 220px;
+        height: 280px;
+    }
 }
 
 .hero h1 {
@@ -102,7 +117,7 @@ button.secondary {
     color: #00d4ff;
 }
 
-/* ABOUT */
+
 .about-container {
     display: flex;
     justify-content: center;
@@ -123,7 +138,6 @@ button.secondary {
     text-align: left;
 }
 
-/* SKILLS */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -143,7 +157,6 @@ button.secondary {
     background: #254a78;
 }
 
-/* EXPERIENCE */
 .timeline {
     max-width: 800px;
     margin: auto;
@@ -158,7 +171,6 @@ button.secondary {
     border-radius: 5px;
 }
 
-/* PROJECTS */
 .projects-container {
     display: flex;
     justify-content: center;
@@ -179,7 +191,6 @@ button.secondary {
     transform: translateY(-5px);
 }
 
-/* CONTACT */
 .contact-container {
     margin-top: 20px;
 }
@@ -189,7 +200,7 @@ button.secondary {
     font-size: 16px;
 }
 
-/* FOOTER */
+
 footer {
     background: #1a1a1a;
     padding: 20px;
@@ -197,7 +208,7 @@ footer {
     margin-top: 40px;
 }
 
-/* MOBILE */
+
 @media (max-width: 768px) {
 
     .navbar {
